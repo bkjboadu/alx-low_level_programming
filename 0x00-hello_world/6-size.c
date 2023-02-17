@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main: Entry
+ * main- Entry
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	printf("Size of a char: %d bytes",sizeof(char));
@@ -14,4 +13,3 @@ int main(void)
 	printf("Size of a float: %d bytes",sizeof(float));
 	return (0);
 }
-

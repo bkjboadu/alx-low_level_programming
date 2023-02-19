@@ -8,6 +8,7 @@
 int main(void)
 {
 	int i, j;
+
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 1; j < 10; j++)
@@ -20,8 +21,13 @@ int main(void)
 			{
 				putchar(i + 48);
 				putchar(j + 48);
-				putchar(',');
-				putchar(' ');
+				if ((i == 8) && (j == 9))
+				continue;
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}

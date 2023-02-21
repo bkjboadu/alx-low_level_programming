@@ -1,32 +1,20 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
+
 /**
  * print_alphabet_x10 - Entry level
+ *
+ * Return: Always 0(success)
  */
 
 void print_alphabet_x10(void)
 {
-	int i = 0;
+	int j;
+	char i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (j = 0; j < 10; j++)
 	{
-		putchar(i);
+		for (i = 'a'; i <= 'z'; i++)
+			_putchar(i);
+		_putchar('\n');
 	}
-}
-
-/**
- * main - Entry level
- * Return: Always 0(success)
- */
-
-int main(void)
-{
-	int j = 0;
-
-	for (j = 0; j <= 10; j++)
-	{
-		print_alphabet_x10();
-	}
-	putchar('\n');
-	return (0);
 }

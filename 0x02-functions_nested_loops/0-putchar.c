@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include "main.h"
 
 /**
  * main - Entry level
@@ -13,8 +13,8 @@ int main(void)
 
 	for (i = 0; i < strlen(ch); i++)
 	{
-		putchar(ch[i]);
+		_putchar(ch[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }

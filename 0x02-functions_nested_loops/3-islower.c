@@ -2,6 +2,9 @@
 
 /**
  * _islower - checks lowercase
+ *
+ * @c: parameter to be printed
+ *
  * Return: 1(success)
  */
 
